@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<test-results name="Jasmine Results" total="1" failures="1" not-run="0" date="2016-07-22" time="16:17:10">
+ <test-suite name="Our first tests" executed="true" success="false" time="0.004">
+  <results>
+   <test-suite name="Numbers" executed="true" success="false" time="0.003">
+    <results>
+     <test-case name="one really equal one?" executed="true" success="false" time="0.002">
+      <failure>
+       <message><![CDATA[Expected 1 to be 0.]]></message>
+       <stack-trace><![CDATA[Error: Expected 1 to be 0.
+    at stack (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1577:17)
+    at buildExpectationResult (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1547:14)
+    at Spec.Env.expectationResultFactory (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:638:18)
+    at Spec.addExpectationResult (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:330:34)
+    at Expectation.addExpectationResult (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:588:21)
+    at Expectation.toBe (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1501:12)
+    at Object.<anonymous> (C:\Systems\playground\typescript\stringCalc\spec\js\firstTest.spec.js:5:23)
+    at attemptSync (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (C:\Systems\playground\typescript\stringCalc\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]></stack-trace>
+      </failure>
+     </test-case>
+    </results>
+   </test-suite>
+  </results>
+ </test-suite>
+</test-results>

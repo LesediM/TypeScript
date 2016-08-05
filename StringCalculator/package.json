@@ -1,0 +1,23 @@
+{
+  "name": "stringcalc",
+  "version": "1.0.0",
+  "description": "unit test string calc",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rd /s/q dist && tsc -p src",
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "lint": "tslint \"src/**/*.ts\" \"spec/**/*.ts\" \"tslint_rules/*.ts\"",
+    "typings": "typings"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "devDependencies": {
+    "jasmine-reporters": "^2.2.0"
+  }
+}
